@@ -13,3 +13,8 @@ const filme = {
 };
 
 // respostas aqui ⬇️
+
+console.log('O primeiro ator/atriz é:', filme.elenco[0]) // Impressão do ator/atriz 1
+console.log('O último ator/atriz é:', filme.elenco[3]) // Impressão do Último ator/atriz
+console.log('Nossa grade de transmissões de hoje:', filme.transmissoesHoje) // Transmissões
+console.log('O filme no Canal Brasil será exibido às:', filme.transmissoesHoje[1].horario); // Horário do filme
